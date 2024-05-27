@@ -1,0 +1,35 @@
+#counter{
+    font-size: 10em;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+}
+.zero{
+      text-align: center;
+}
+
+#btncontainer{
+    text-align: center;
+}
+
+.btn{
+    align-items: center;
+    text-align: center;
+   padding: 10px;
+   background-color: rgb(211, 211, 245);
+   border-radius: 5px;
+   font-size: 1.5em;
+  /* The CSS property `cursor: pointer;` changes the cursor to a pointer when hovering over an element.
+  This visual cue indicates to the user that the element is clickable, such as a button or a link,
+  and encourages interaction. */
+   cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.btn:mouse:hover{
+    background-color: rgb(211, 211, 245);
+}
